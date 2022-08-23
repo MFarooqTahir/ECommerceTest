@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ECommerceTest.CartApiTests": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
