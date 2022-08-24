@@ -7,7 +7,7 @@ This solution and it's projects are structured in the following manner. The proj
 1.  Design the  Microservice Architecture  for the example (diagram that represent  it).  <img src="https://github.com/MFarooqTahir/ECommerceTest/blob/master/Architecture%20Diagram.png?raw=true"></img>
 2.  Define the design pattern you are going to use.  
 		The project uses
-		 Factory Creational Pattern which means that the objects are created with a factory method of several derived class as requested, implemented in HttpClient in the ApiGateway. And Bridge Structural Pattern which means that the object's implementation is seperate from the implementation itself.
+		 Factory Creational Pattern which means that the objects are created with a factory method of several derived class as requested, implemented in HttpClient in the ApiGateway. And Bridge Structural Pattern which means that the object's implementation is seperate from the implementation itself. And the proxy Pattern, as it uses an api gateway to mediate the requests to the microservices themselves
 3.  Create a .net core project that have the designed architecture  (only to show  
 architecture). 
  <img src="https://github.com/MFarooqTahir/ECommerceTest/blob/master/Solution%20Structure.png?raw=true"></img>
